@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,5 +106,4 @@ function getDaysInMonth(year, month) {
 
 
 
-const birthDateInput = 
-```
+
