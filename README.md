@@ -5,27 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="age-calculator">
-        <h1>Age Calculator</h1>
-        <form>
-            <label for="birth-date">Birth Date:</label>
-            <input type="date" id="birth-date" required>
-            <button id="calculate-btn">Calculate Age</button>
-        </form>
-        <p id="result"></p>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
-```
-
-CSS:
-```
-body {
+    <style>
+        body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -72,11 +53,11 @@ button:hover {
     font-weight: bold;
     margin-top: 20px;
 }
-```
-
-JavaScript:
-```
-const birthDateInput = document.getElementById('birth-date');
+    </style>
+</head>
+<body>
+    <script>
+        document.getElementById('birth-date');
 const calculateButton = document.getElementById('calculate-btn');
 const resultElement = document.getElementById('result');
 
@@ -109,4 +90,22 @@ function calculateAge(birthDate, today) {
 function getDaysInMonth(year, month) {
     return new Date(year, month + 1, 0).getDate();
 }
+    </script>
+    <div class="age-calculator">
+        <h1>Age Calculator</h1>
+        <form>
+            <label for="birth-date">Birth Date:</label>
+            <input type="date" id="birth-date" required>
+            <button id="calculate-btn">Calculate Age</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+const birthDateInput = 
 ```
